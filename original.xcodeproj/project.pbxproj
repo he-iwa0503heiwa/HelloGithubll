@@ -14,6 +14,8 @@
 		AC4A8ED51C2BD82D00ED8A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4A8ED31C2BD82D00ED8A93 /* LaunchScreen.storyboard */; };
 		AC4A8EE01C2BD82D00ED8A93 /* originalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4A8EDF1C2BD82D00ED8A93 /* originalTests.swift */; };
 		AC4A8EEB1C2BD82D00ED8A93 /* originalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4A8EEA1C2BD82D00ED8A93 /* originalUITests.swift */; };
+		ACB00D901C2D2DC000FCF0DA /* 表面張力.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACB00D8F1C2D2DC000FCF0DA /* 表面張力.jpg */; };
+		ACB00D921C2E163E00FCF0DA /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB00D911C2E163E00FCF0DA /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AC4A8EE61C2BD82D00ED8A93 /* originalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = originalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4A8EEA1C2BD82D00ED8A93 /* originalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = originalUITests.swift; sourceTree = "<group>"; };
 		AC4A8EEC1C2BD82D00ED8A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB00D8F1C2D2DC000FCF0DA /* 表面張力.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "表面張力.jpg"; sourceTree = "<group>"; };
+		ACB00D911C2E163E00FCF0DA /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB00D921C2E163E00FCF0DA /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		AC4A8EBE1C2BD82D00ED8A93 = {
 			isa = PBXGroup;
 			children = (
+				ACB00D911C2E163E00FCF0DA /* CoreMotion.framework */,
 				AC4A8EC91C2BD82D00ED8A93 /* original */,
 				AC4A8EDE1C2BD82D00ED8A93 /* originalTests */,
 				AC4A8EE91C2BD82D00ED8A93 /* originalUITests */,
@@ -100,6 +106,7 @@
 				AC4A8ECA1C2BD82D00ED8A93 /* AppDelegate.swift */,
 				AC4A8ECC1C2BD82D00ED8A93 /* ViewController.swift */,
 				AC4A8ECE1C2BD82D00ED8A93 /* Main.storyboard */,
+				ACB00D8F1C2D2DC000FCF0DA /* 表面張力.jpg */,
 				AC4A8ED11C2BD82D00ED8A93 /* Assets.xcassets */,
 				AC4A8ED31C2BD82D00ED8A93 /* LaunchScreen.storyboard */,
 				AC4A8ED61C2BD82D00ED8A93 /* Info.plist */,
@@ -230,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4A8ED51C2BD82D00ED8A93 /* LaunchScreen.storyboard in Resources */,
+				ACB00D901C2D2DC000FCF0DA /* 表面張力.jpg in Resources */,
 				AC4A8ED21C2BD82D00ED8A93 /* Assets.xcassets in Resources */,
 				AC4A8ED01C2BD82D00ED8A93 /* Main.storyboard in Resources */,
 			);
@@ -398,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = original/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "heiwaknbvbnmb-cvbvcx.original";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = original/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "heiwaknbvbnmb-cvbvcx.original";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +492,7 @@
 				AC4A8EF11C2BD82D00ED8A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC4A8EF21C2BD82D00ED8A93 /* Build configuration list for PBXNativeTarget "originalTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +501,7 @@
 				AC4A8EF41C2BD82D00ED8A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC4A8EF51C2BD82D00ED8A93 /* Build configuration list for PBXNativeTarget "originalUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +510,7 @@
 				AC4A8EF71C2BD82D00ED8A93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
