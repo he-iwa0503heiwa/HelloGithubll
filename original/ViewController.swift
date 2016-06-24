@@ -9,6 +9,8 @@
 import UIKit
 import CoreMotion
 
+// test
+
 class ViewController: UIViewController {
     
     @IBOutlet var label:UILabel!
